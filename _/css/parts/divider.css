@@ -1,0 +1,9 @@
+.divider {
+	display: block;
+    clear: both;
+}
+hr {
+    border: none;
+    padding: 0;
+    margin: 0;
+}

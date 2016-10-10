@@ -1,0 +1,30 @@
+.light {
+	font-weight: lighter
+}
+.regular {
+	font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.underline {
+	text-decoration: underline;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.italic {
+	font-style: italic;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
