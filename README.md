@@ -1,2 +1,2 @@
 # Clean Wordpress Reset Theme
-A clean wordpress theme for starters based on HTML5-Reset. 
+A clean wordpress theme for starters based on HTML5-Reset and unsemantic grid.
