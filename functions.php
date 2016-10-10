@@ -20,7 +20,7 @@ add_action( 'after_setup_theme', 'cleanwordpress_setup' );
 function cleanwordpress_scripts_styles() {
 
 	// Theme stylesheet.
-	wp_enqueue_style( 'cleanwordpress-style', get_stylesheet_uri() . "/_/css/styles.php" );
+	wp_enqueue_style( 'cleanwordpress-style', get_template_directory_uri() . "/_/css/styles.php" );
 	wp_enqueue_script( 'cleanwordpress-script', get_template_directory_uri() . '/_/js/functions.js', array( 'jquery' ), '20161001', true );
 
 
