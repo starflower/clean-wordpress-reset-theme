@@ -26,6 +26,8 @@ require('parts/helper.css');
 require('parts/spacings.css');
 require('parts/print.css');
 
+require('parts/navbar.css');
+
 
 function compress($buffer) {
   /* remove comments */

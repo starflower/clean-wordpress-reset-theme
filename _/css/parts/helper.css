@@ -22,6 +22,13 @@
 .full-width {
 	width: 100% !important;
 }
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
 
 /* RESPONSIVE EMBEDS */
 .video-container {
