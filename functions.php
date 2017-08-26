@@ -82,5 +82,13 @@ function remove_width_attribute( $html ) {
    return $html;
 }
 
+// REMOVE CUSTOMIZER
+add_action( 'wp_before_admin_bar_render', 'wpse200296_before_admin_bar_render' ); 
+function wpse200296_before_admin_bar_render()
+{
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('customize');
+}
+
 
 ?>
